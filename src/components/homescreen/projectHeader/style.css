@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+  height: 75px;
+}
+
+.header__title {
+  padding-left: 40px;
+  position: relative;
+  height: 50px;
+  top: 20px;
+  left: 350px;
+  text-align: center;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 15px;
+
+  color: #7459d9;
+}
+
+.user__info {
+  display: flex;
+  padding-right: 100px;
+  padding-top: 10px;
+  border-radius: 4px;
+}
+.img {
+  height: 40px;
+  padding-right: 10px;
+}
+
+.user__name {
+  font-family: Mulish;
+  padding-top: 10px;
+}
